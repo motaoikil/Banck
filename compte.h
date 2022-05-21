@@ -1012,7 +1012,7 @@ void ReleveParMois(char cin[], int mois, int annee)
 		fprintf(R, "\n");
 
 		fprintf(R, " _______________________________________\n");
-		fprintf(R, "|___ Numï¿½ro de compte __|_____ MOIS ____|\n");
+		fprintf(R, "|___ Numéro de compte __|_____ MOIS ____|\n");
 		fprintf(R, "|				 |			|\n");
 		fprintf(R, "|    %lli	 | %s %i 	|\n", cmpt1.NmCpt, ms[mois - 1], annee);
 		fprintf(R, "|_______________________|_______________|\n");
@@ -1020,10 +1020,10 @@ void ReleveParMois(char cin[], int mois, int annee)
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s %s\n", cl.Prenom, cl.Nom);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s\n", cl.Adress);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t *%lli*\n\n", cmpt1.NmCpt);
-		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevï¿½ de votre Compte : \n\n");
+		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevé de votre Compte : \n\n");
 		fprintf(R, "\t\t\t\t\t\t\t\t Compte %s\n\n", cmpt1.TypeCpt);
 		fprintf(R, " _______________________________________________________________________\n");
-		fprintf(R, "|_Dat_|____________ Libellï¿½ ____________|_Val_|___ Dï¿½bit __|__ Crï¿½dit __|\n");
+		fprintf(R, "|_Dat_|____________ Libellé ____________|_Val_|___ Débit __|__ Crédit __|\n");
 		fprintf(R, "|     | 						|     |		  |		   |\n");
 
 		P = fopen("Traitement.txt", "r");
@@ -1048,7 +1048,7 @@ void ReleveParMois(char cin[], int mois, int annee)
 		fprintf(R, "|_____|_________________________________|_____|____________|____________|\n\n\n");
 		fprintf(R, "\t\t\t\t _____________________________________________\n");
 		fprintf(R, "\t\t\t\t|   Total  |  Total    |  Solde   |   Solde   |\n");
-		fprintf(R, "\t\t\t\t|__ dï¿½bit _|_ crï¿½dit __|_dï¿½biteur_|_crï¿½diteur_|\n");
+		fprintf(R, "\t\t\t\t|__ débit _|_ crédit __|_débiteur_|_créditeur_|\n");
 		fprintf(R, "\t\t\t\t|          |           |          |           |\n");
 
 		fprintf(R, "\t\t\t\t| %.2lf	| %.2lf	|", debit, credit);
@@ -1117,7 +1117,7 @@ void ReleveParIntervalle(char cin[])
 		fprintf(R, "\n");
 		
 		fprintf(R, " ________________________________________________________\n");
-		fprintf(R, "|___ Numï¿½ro de compte __|_____ Du ______|_____ Au _______|\n");
+		fprintf(R, "|___ Numéro de compte __|_____ Du ______|_____ Au _______|\n");
 		fprintf(R, "|				 |           	|           	|\n");
 		fprintf(R, "|    %lli	 |   %i/%i/%i	|   %i/%i/%i	|\n", cmpt1.NmCpt, cl2.Dt_Naiss.Jour, cl2.Dt_Naiss.Mois, cl2.Dt_Naiss.Annee, cl3.Dt_Naiss.Jour, cl3.Dt_Naiss.Mois, cl3.Dt_Naiss.Annee);
 		fprintf(R, "|_______________________|_______________|________________|\n");
@@ -1126,10 +1126,10 @@ void ReleveParIntervalle(char cin[])
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s %s\n", cl1.Prenom, cl1.Nom);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s\n", cl1.Adress);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t *%lli*\n\n", cmpt1.NmCpt);
-		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevï¿½ de votre Compte : \n\n");
+		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevé de votre Compte : \n\n");
 		fprintf(R, "\t\t\t\t\t\t\t\t Compte %s\n\n", cmpt1.TypeCpt);
 		fprintf(R, " _______________________________________________________________________\n");
-		fprintf(R, "|_Dat_|____________ Libellï¿½ ____________|_Val_|___ Dï¿½bit __|__ Crï¿½dit __|\n");
+		fprintf(R, "|_Dat_|____________ Libellé ____________|_Val_|___ Débit __|__ Crédit __|\n");
 		fprintf(R, "|     | 						|     |		  |		   |\n");
 
 		P = fopen("Traitement.txt", "r");
@@ -1155,7 +1155,7 @@ void ReleveParIntervalle(char cin[])
 		fprintf(R, "\n");
 		fprintf(R, "\t\t\t\t _____________________________________________\n");
 		fprintf(R, "\t\t\t\t|   Total  |  Total    |  Solde   |   Solde   |\n");
-		fprintf(R, "\t\t\t\t|__ dï¿½bit _|_ crï¿½dit __|_dï¿½biteur_|_crï¿½diteur_|\n");
+		fprintf(R, "\t\t\t\t|__ débit _|_ crédit __|_débiteur_|_créditeur_|\n");
 		fprintf(R, "\t\t\t\t|          |           |          |           |\n");
 
 		fprintf(R, "\t\t\t\t| %.2lf	| %.2lf	|", debit, credit);
@@ -1223,13 +1223,13 @@ void RIB(char cin[])
 		fprintf(R, "|______________________|\n");
 		fprintf(R, "\n");
 		
-		fprintf(R, "\n\nNom et Prï¿½nom : %s %s\n", cl.Nom, cl.Prenom);
+		fprintf(R, "\n\nNom et Prénom : %s %s\n", cl.Nom, cl.Prenom);
 		Grb = GenerRIB(cmpt.NmCpt);
 		GenerRIB(cmpt.NmCpt);
 		fprintf(R, "\t\t\t\t\t\t\t\t Compte %s\n\n", cmpt.TypeCpt);
 		fprintf(R, "\nRIB :\n %s %s %lli %i\n\n\n", CdBn, CdVl, cmpt.NmCpt, Grb);
 		fprintf(R, "\t ________________________________________________________\n");
-		fprintf(R, "\t|   Code   |   Code    |        Numï¿½ro        |    Clï¿½   |\n");
+		fprintf(R, "\t|   Code   |   Code    |        Numéro        |    Clé   |\n");
 		fprintf(R, "\t|_ Banque _|__ Ville __|_______ Compte _______|___ RIB __|\n");
 		fprintf(R, "\t|          |           |                      |          |\n");
 		fprintf(R, "\t|    %s	|    %s	|   %lli	|    %i	|\n", CdBn, CdVl, cmpt.NmCpt, Grb);
@@ -1272,7 +1272,7 @@ void ReleveAssociationMois(long long int Nm, int mois, int annee)
 		fprintf(R, "\n");
 		
 		fprintf(R, " _______________________________________\n");
-		fprintf(R, "|___ Numï¿½ro de compte __|_____ MOIS ____|\n");
+		fprintf(R, "|___ Numéro de compte __|_____ MOIS ____|\n");
 		fprintf(R, "|				 |			|\n");
 		fprintf(R, "|    %lli	 | %s %i 	|\n", ass1.NmCpt, ms[mois - 1], annee);
 		fprintf(R, "|_______________________|_______________|\n");
@@ -1280,11 +1280,11 @@ void ReleveAssociationMois(long long int Nm, int mois, int annee)
 
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s \n", ass1.Nom);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t *%lli*\n\n", ass1.NmCpt);
-		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevï¿½ de votre Compte : \n\n");
+		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevé de votre Compte : \n\n");
 		fprintf(R, "\t\t\t\t\t\t\t\t Compte %s\n\n\n", ass1.TypeCpt);
 
 		fprintf(R, " _______________________________________________________________________\n");
-		fprintf(R, "|_Dat_|____________ Libellï¿½ ____________|_Val_|___ Dï¿½bit __|__ Crï¿½dit __|\n");
+		fprintf(R, "|_Dat_|____________ Libellé ____________|_Val_|___ Débit __|__ Crédit __|\n");
 		fprintf(R, "|     | 						|     |		  |		   |\n");
 
 		P = fopen("Traitement2.txt", "r");
@@ -1310,7 +1310,7 @@ void ReleveAssociationMois(long long int Nm, int mois, int annee)
 		fprintf(R, "\n\n");
 		fprintf(R, "\t\t\t\t _____________________________________________\n");
 		fprintf(R, "\t\t\t\t|   Total  |  Total    |  Solde   |   Solde   |\n");
-		fprintf(R, "\t\t\t\t|__ dï¿½bit _|_ crï¿½dit __|_dï¿½biteur_|_crï¿½diteur_|\n");
+		fprintf(R, "\t\t\t\t|__ débit _|_ crédit __|_débiteur_|_créditeur_|\n");
 		fprintf(R, "\t\t\t\t|          |           |          |           |\n");
 
 		fprintf(R, "\t\t\t\t| %.2lf	| %.2lf	|", debit, credit);
@@ -1376,7 +1376,7 @@ void ReleveAssociationInter(long long int Nmco)
 		fprintf(R, "\n");
 		
 		fprintf(R, " ________________________________________________________\n");
-		fprintf(R, "|___ Numï¿½ro de compte __|_____ Du ______|_____ Au _______|\n");
+		fprintf(R, "|___ Numéro de compte __|_____ Du ______|_____ Au _______|\n");
 		fprintf(R, "|				 |          	|           	|\n");
 		fprintf(R, "|    %lli	 |   %i/%i/%i	|   %i/%i/%i	|\n", ass1.NmCpt, ass2.Dt_Cmpt.Jour, ass2.Dt_Cmpt.Mois, ass2.Dt_Cmpt.Annee, ass3.Dt_Cmpt.Jour, ass3.Dt_Cmpt.Mois, ass3.Dt_Cmpt.Annee);
 		fprintf(R, "|_______________________|_______________|________________|\n");
@@ -1384,10 +1384,10 @@ void ReleveAssociationInter(long long int Nmco)
 
 		fprintf(R, "\t\t\t\t\t\t\t\t\t %s\n", ass1.Nom);
 		fprintf(R, "\t\t\t\t\t\t\t\t\t *%lli*\n\n", ass1.NmCpt);
-		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevï¿½ de votre Compte : \n\n");
+		fprintf(R, "Nous avons l'Honneur de vous remettre ci-dessous\nLe relevé de votre Compte : \n\n");
 		fprintf(R, "\t\t\t\t\t\t\t\t Compte %s\n\n\n\n", ass1.TypeCpt);
 		fprintf(R, " _______________________________________________________________________\n");
-		fprintf(R, "|_Dat_|____________ Libellï¿½ ____________|_Val_|___ Dï¿½bit __|__ Crï¿½dit __|\n");
+		fprintf(R, "|_Dat_|____________ Libellé ____________|_Val_|___ Débit __|__ Crédit __|\n");
 		fprintf(R, "|     | 						|     |		  |		   |\n");
 
 		P = fopen("Traitement2.txt", "r");
@@ -1416,7 +1416,7 @@ void ReleveAssociationInter(long long int Nmco)
 		fprintf(R, "\n");
 		fprintf(R, "\t\t\t\t _____________________________________________\n");
 		fprintf(R, "\t\t\t\t|   Total  |  Total    |  Solde   |   Solde   |\n");
-		fprintf(R, "\t\t\t\t|__ dï¿½bit _|_ crï¿½dit __|_dï¿½biteur_|_crï¿½diteur_|\n");
+		fprintf(R, "\t\t\t\t|__ débit _|_ crédit __|_débiteur_|_créditeur_|\n");
 		fprintf(R, "\t\t\t\t|          |           |          |           |\n");
 
 		fprintf(R, "\t\t\t\t| %.2lf	| %.2lf	|", debit, credit);
@@ -1477,7 +1477,7 @@ void AssociationRIB(long long int Nmco)
 		fprintf(R, "\nRIB :\n %s %s %lli %i", CdBn, CdVl, ass.NmCpt, code);
 		fprintf(R, "\n\n\n\n");
 		fprintf(R, "\t ________________________________________________________\n");
-		fprintf(R, "\t|   Code   |   Code    |        Numï¿½ro        |    Clï¿½   |\n");
+		fprintf(R, "\t|   Code   |   Code    |        Numéro        |    Clé   |\n");
 		fprintf(R, "\t|_ Banque _|__ Ville __|_______ Compte _______|___ RIB __|\n");
 		fprintf(R, "\t|          |           |                      |          |\n");
 		fprintf(R, "\t|    %s	|    %s	|   %lli	|    %i	|\n", CdBn, CdVl, ass.NmCpt, code);

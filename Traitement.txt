@@ -1,0 +1,5 @@
+ je253647	Viresment_vers_mon_compte	2.00	24/4/2020 15:30:8 27/4
+ je425879	Viresment_vers_autre_compte	100.00	24/4/2020 15:30:42 27/4
+ je425879	Recu_versement_vers_mon_cmpt	100.00	24/4/2020 15:30:42 27/4
+ je425879	Retraite__sur_mon__compte	22.00	24/4/2020 15:31:48 27/4
+ je235689	Recu_versement_vers_mon_cmpt	14.00	24/4/2020 15:35:32 27/4

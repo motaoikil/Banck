@@ -1,0 +1,3 @@
+ je253647	Kerdellas	Mohammed	14_Lot_Coop_Tiznit	(+212)-645785452	moha.ker@gmail.com	14/11/1986	Etudiant
+ je425879	Taghzout	Abdellah	14_Lot_Coop_Agadir	(+212)-625347845	abde.tag@gmail.com	23/10/1994	Etudiant
+ je235689	Aachoure	Yasminne	14_Lot_Coop_Marrakech	(+212)-635698528	yasm.ach@gmail.com	12/08/1984	Etudiant
